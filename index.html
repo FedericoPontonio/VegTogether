@@ -7,28 +7,31 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="wrapper">
+  <main>
     <!-- Pagina 1 -->
     <header>
-      <h1>VegTogether<br>Eventi Pilota</h1>
+      <h1 class="centerContent">VegTogether</h1>
+      <h2 class="centerContent">Eventi Pilota</h2>
     </header>
 
     <section>
-      <h2>Cosa comunicare ai partecipanti dell’evento</h2>
-      <p class="small">Presenta lo scopo del progetto e degli eventi pilota (vedi pagina 2).</p>
-      <p class="small">Comunica come verrà condiviso il materiale raccolto (foto, video…), per assicurarti di avere il consenso dei partecipanti. (Dettagli a pagina 3.)</p>
+      <div class="sectionHeader">Cosa comunicare ai partecipanti dell’evento</div>
+        <ul>
+          <li>Presenta lo scopo del progetto e degli eventi pilota, <a href="#scopoProgetto"> li trovi qui. </a></li>
+          <li>Comunica come verrà condiviso il materiale raccolto (foto, video…), per assicurarti di avere il consenso dei partecipanti. <a href="#usoFoto">Trovi qui tutti i dettagli.</a> </li>
+        </ul>
     </section>
 
     <section>
-      <h2>Cosa ci serve dopo l’evento</h2>
-      <p class="small">In caso di dubbi, a pagina 4 trovi più info!</p>
+      <div class="sectionHeader">Cosa ci serve dopo l’evento</div>
+      <p>In caso di dubbi, <a href="#materialePostEvento">qui trovi più info!</a></p>
       <ul>
         <li>Fotografie dell’evento</li>
         <li>Video-interviste</li>
         <li>Risposte al questionario tramite QR-code/link</li>
         <li>Dati minimi dell’evento</li>
       </ul>
-      <h3>Questionario di valutazione dell’evento</h3>
+      <div class="sectionHeader">Questionario di valutazione dell’evento</div>
       <p>
         Link alternativo:
         <a href="https://tinyurl.com/VegTogetherEventi">https://tinyurl.com/VegTogetherEventi</a>
@@ -36,8 +39,8 @@
     </section>
 
     <section>
-      <h2>Contatti</h2>
-      <div class="contact">
+      <div class="sectionHeader">Contatti</div>
+      <div>
         <p>Responsabile del progetto: Matteo Lupi</p>
         <p>📞 Telefono / WhatsApp: 388 438 0252</p>
         <p>📧 Email: <a href="mailto:vegtogether.italia@gmail.com">vegtogether.italia@gmail.com</a></p>
@@ -49,8 +52,7 @@
 
     <!-- Pagina 2 -->
     <section>
-      <h2>Scopo progetto ed eventi: dettagli</h2>
-
+      <div id="scopoProgetto" class="sectionHeader">Scopo progetto ed eventi: dettagli</div>
       <h3>🌱 Scopo del progetto</h3>
       <p>Spesso trovare eventi, persone e attività in linea con i propri valori richiede tempo e tante ricerche su piattaforme diverse (Facebook, Telegram…). Questo fa sentire isolati, soli e un po’ scoraggiati.</p>
       <p>VegTogether nasce per rendere tutto più semplice: un’unica piattaforma per organizzare e partecipare ad esperienze come cene, trekking, workshop, viaggi, festival, attivismo, volontariato e molto altro con persone che condividono i tuoi valori.</p>
@@ -70,22 +72,22 @@
 
     <!-- Pagina 3 -->
     <section>
-      <h2>📸 Uso di foto e video durante l’evento</h2>
+      <div id="usoFoto" class="sectionHeader">📸 Uso di foto e video durante l’evento</div>
       <p>Il materiale raccolto avrà l’unico scopo di documentare l’esperienza e mostrarne il valore a investitori e partner, come parte del percorso di validazione dell’app.</p>
 
-      <h3>➡ Cosa NON faremo:</h3>
+      <div class="sectionSubHeader">➡ Cosa NON faremo:</div>
       <ul>
         <li>non diffonderemo pubblicamente le immagini sui social o altri canali senza il tuo consenso scritto;</li>
         <li>non useremo mai le immagini per fini commerciali diversi da quelli dichiarati.</li>
       </ul>
 
-      <h3>➡ I tuoi diritti:</h3>
+      <div class="sectionSubHeader">➡ I tuoi diritti:</div>
       <ul>
         <li>se non desideri comparire in foto o video, potrai comunicarcelo in qualsiasi momento e rispetteremo pienamente la tua scelta;</li>
         <li>la legge italiana ti tutela in ogni caso: l’uso della tua immagine senza consenso non è permesso (art. 10 Codice Civile e artt. 96–97 Legge sul diritto d’autore n. 633/1941).</li>
       </ul>
 
-      <h3>➡ Il nostro impegno:</h3>
+      <div class="sectionSubHeader">➡ Il nostro impegno:</div>
       <p>Ci assumiamo la piena responsabilità legale di rispettare questi principi. Le immagini raccolte resteranno a uso interno, riservato e protetto.</p>
       <p>Se i contenuti verranno utilizzati impropriamente e non nel rispetto di quanto scritto qui, potrai rivalerti legalmente al responsabile del progetto.</p>
     </section>
@@ -94,7 +96,7 @@
 
     <!-- Pagina 4 -->
     <section>
-      <h2>Materiali post-evento: dettagli</h2>
+      <div id="materialePostEvento" class="sectionHeader">Materiali post-evento: dettagli</div>
       <p>Per aiutarci a crescere ti chiediamo di raccogliere:</p>
       <ul>
         <li>Fotografie dell’evento (piatti, persone che svolgono l’attività, foto di gruppo… rendendo chiaro il tipo di evento in corso).</li>
@@ -115,7 +117,7 @@
           </ul>
         </li>
       </ul>
-      <p class="muted">Qualsiasi dato raccolto può essere inviato alla email indicata nei contatti.</p>
+      <div style="margin-top: 2%;" class="sectionSubHeader">Qualsiasi dato raccolto può essere inviato alla email indicata nei contatti.</div>
     </section>
   </main>
 </body>

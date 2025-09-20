@@ -1,37 +1,48 @@
-/* CSS minimo */
-:root {
-  --maxw: 820px;
+
+* {
+  background-color: rgb(237, 216, 188);
 }
 
-* { box-sizing: border-box; }
-
-html { font-size: 16px; }
 body {
+  --textColorOne: rgb(6, 108, 6);
+  --textColorTwo: rgb(237, 125, 39);
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+a {
+  color: var(--textColorTwo);
+}
+
+ul {
   margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  color: #111;
-  background: #fff;
+  list-style: circle;
 }
 
-.wrapper {
-  max-width: var(--maxw);
-  margin: 0 auto;
-  padding: 24px;
+h1 {
+  color: var(--textColorOne);
+}
+h2 {
+  color: var(--textColorTwo);
 }
 
-h1, h2, h3 { margin: 0.8em 0 0.4em; font-weight: 700; }
-h1 { font-size: 1.9rem; line-height: 1.2; }
-h2 { font-size: 1.25rem; }
-p { margin: 0.5em 0; }
+.sectionHeader {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--textColorOne);
+}
+.sectionSubHeader
+{
+  font-weight: bold;
+  font-size: 18px;
+}
 
-ul { margin: 0.25em 0 0.75em; padding-left: 1.2em; }
-li { margin: 0.25em 0; }
+.centerContent {
+  display: flex;
+  justify-content: center;
+}
 
-hr { border: 0; border-top: 1px solid #e5e5e5; margin: 1.25rem 0; }
-
-.small { font-size: 0.95rem; }
-.muted { color: #444; }
-
-.contact { margin-top: 0.5rem; }
-.contact p { margin: 0.2rem 0; }
+section {
+  margin-bottom: 3%;
+}
